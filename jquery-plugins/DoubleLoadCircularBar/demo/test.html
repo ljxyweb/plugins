@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>测试弧形进度条</title>
+  <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+  <style type="text/css">
+    .item_chart_div {
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="item_chart_div" id="canvas1"></div>
+  <script src="../jquery-circularbar.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#canvas1').circularBar({
+        value: [0.8, 0.2],
+        useSize: false,
+        startAngle: -0.5 * Math.PI,
+        fillColor: ["#FFF369", "#E93030"]
+      });
+    });
+  </script>
+</body>
+
+</html>

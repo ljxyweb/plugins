@@ -1,0 +1,16 @@
+ol,ul{list-style:none;padding: 0;margin: 0;}
+.overlaybox{height: 400px; position: relative; overflow: hidden;}
+.overlay-slide-item{width:1100px; margin: 0 auto; height: 100%; position: relative; overflow: hidden;}
+.overlay-slide-item:hover{cursor:pointer;}
+.overlay-slide-item li.left1{position: absolute; left: 0; top: 140px; height: 120px; z-index: 1;}
+.overlay-slide-item li.left2{position: absolute; left: 75px; top: 100px; height: 200px; z-index: 2;}
+.overlay-slide-item li.left3{position: absolute; left: 150px; top: 50px; height: 300px; z-index: 3;}
+.overlay-slide-item li.left4{position: absolute; left: 225px; top: 0; height: 400px; z-index: 4;}
+.overlay-slide-item li.left5{position: absolute; left:462.5px; top: 50px; height: 300px; z-index: 3;}
+.overlay-slide-item li.left6{position: absolute; left: 700px; top: 100px; height: 200px; z-index: 2;}
+.overlay-slide-item li.left7{position: absolute; left: 905px; top: 140px; height: 120px; z-index: 1;}
+.overlay-slide-item li>img{height:100%;}
+.overlay-arrow{position: absolute; left:0; top: calc(50% - 15.5px); width:15px; height:31px; background: url(./img/overlayarrowprev.png) no-repeat; background-size: 12px; transition: all 2s; z-index:50;}
+.overlay-arrow:hover{background-size:inherit; cursor: pointer;}
+.overlay-arrow.next{right: 0; left: auto; transform: rotate(-180deg);}
+.hiddenslide{position: absolute; right: -195px; top: calc(50% - 60px); height: 120px; z-index: 1; opacity: 0;}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>测试弧形进度条</title>
+  <link type="text/css" rel="stylesheet" href="../base/default.min.css" />
+  <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+  <style type="text/css">
+    .bg_f9 {
+      background-color: #f9f9f9;
+    }
+    .w1200 {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body class="bg_f9">
+  <div class="overlaybox w1200">
+    <ul class="overlay-slide-item">
+      <li class="left1"><img src="./img/overlayimg1.jpg"></li>
+      <li class="left2"><img src="./img/overlayimg2.jpg"></li>
+      <li class="left3"><img src="./img/overlayimg3.jpg"></li>
+      <li class="left4"><img src="./img/overlayimg4.jpg"></li>
+      <li class="left5"><img src="./img/overlayimg5.jpg"></li>
+      <li class="left6"><img src="./img/overlayimg6.jpg"></li>
+      <li class="left7"><img src="./img/overlayimg7.jpg"></li>
+      <li class="hiddenslide"><img src="./img/overlayimg8.jpg"></li>
+      <li class="hiddenslide"><img src="./img/overlayimg9.jpg"></li>
+      <li class="hiddenslide"><img src="./img/overlayimg10.jpg"></li>
+    </ul>
+    <a class="overlay-arrow prev"></a>
+    <a class="overlay-arrow next"></a>
+  </div>
+  <script src="../base/jquery-superimposed-rotation.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".overlaybox").SuperimposedRotation();
+    });
+  </script>
+</body>
+
+</html>

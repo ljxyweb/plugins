@@ -1,0 +1,35 @@
+{
+  "name": "plugins",
+  "version": "1.0.0",
+  "author": "zy",
+  "description": "Some plugins which depend on jquery or native js",
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "canvas",
+    "circular-bar",
+    "payment",
+    "slider",
+    "preview picture"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.12",
+    "uglify-js": "^3.1.2"
+  },
+  "scripts": {
+    "build-min": "node compress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ljxyweb/plugins.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

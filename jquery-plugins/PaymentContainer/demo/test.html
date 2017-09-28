@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link type="text/css" rel="stylesheet" href="../base/default.min.css" />
+  <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="content">
+    <input minlength="6" maxlength="6" name=" " class="psdinput" oncontextmenu="return false" onpaste="return false" oncopy="return false"
+      oncut="return false" autocomplete="off" value="" type="password">
+  </div>
+  <script type="text/javascript" src="../base/jquery-paymentcontainer.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".psdinput").paymentContainer();
+    });
+  </script>
+</body>
+
+</html>

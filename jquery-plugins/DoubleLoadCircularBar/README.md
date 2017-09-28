@@ -15,6 +15,7 @@ Install
 ---------------
 ```
 git clone git@github.com:ljxyweb/plugins.git
+cd plugins/
 npm install
 ```
 Usage

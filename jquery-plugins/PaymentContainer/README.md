@@ -15,7 +15,7 @@ PaymentContainer is a jQuery Plugin to imitate the alipay password input. Like t
 
 ## Usage
 
-include the files
+Include the files
 
 ```html
 <link rel="stylesheet" type="text/css" href="path/base/defaultpayment.css">
@@ -36,7 +36,7 @@ All done!
 ## Options
 
 
-you can custom the properties by passing options when call the plugin, all available options are listed below.
+You can custom the properties by passing options when call the plugin, all available options are listed below.
 
 Call the the plugin on a container as you expected
 ```js

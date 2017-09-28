@@ -13,7 +13,7 @@ SuperimposedRotation插件可进行叠加轮播，至少准备7张图片进行�
 * [License](#license)
 
 ## Usage
-----------------
+
 该插件使用了 [jQuery插件的UMD模板](https://github.com/umdjs/umd/blob/d31bb6ee7098715e019f52bdfe27b3e4bfd2b97e/templates/jqueryPlugin.js)，可通过以下三种方式使用:
 - Browser globals方式使用
 - AMD方式使用
@@ -86,7 +86,7 @@ $(".overlaybox").SuperimposedRotation();
 
 ## Compatibility
 
-* 该插件支持IE9及以上浏览器和其他现代浏览器。
+该插件支持IE9及以上浏览器和其他现代浏览器。
 
 ## License
 
